@@ -33,7 +33,7 @@ function App() {
       const year = nepaliConverted[symbols.find(
         (symbol) => symbol.toString() === "Symbol(Year)"
       )].toString();
-      const finalDate = year + '/' + month + '/' + day;
+      const finalDate = year + '/' + day + '/' + month;
 
       setNepaliDate(finalDate);
     }
